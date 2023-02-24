@@ -1,1 +1,51 @@
 
+fun main() {
+    //o println serve para exibir mensagens no console
+    // serve para comentar uma linha
+    /*
+    
+    * serve
+    * para 
+    * comentar 
+    * mais
+    * de
+    * uma
+    * linha
+    */ 
+    
+    // Variáveis
+    //
+    // var - mutável - seu valor pode ser alterado
+    // val - não mutável - não é possível alterar seu valor
+    //
+    // Tipos de variáveis
+    // 
+    // Boolean - Verdadeiro ou falso --> ex: true,false
+    // Strings - Qualquer texto de qualquer tamanho dentro de "" --> ex: "Pizza"
+    // Char - APENAS UM caractere dentro de '' --> ex: 'a'
+    // Int - Números inteiros --> ex: 6
+    // Double - Números decimais (de forma arredondada) --> 71.23
+    // Long - Números reais (de forma longa) --> ex: 5000000000000000000
+    // Float - Números decimais (de forma definitiva) --> ex: 71.2341165646868
+    // 
+    // Estrutura de uma variável
+    // 
+    // var nomeDela = "valor"
+    // var nomeDela: String
+    
+    var tartaruga: Int 
+   tartaruga = 1
+   
+   //Concatenação
+   var messiGoldenBall = 7
+    
+    
+   
+   println("O Messi já ganhou " + messiGoldenBall + " vezes a Bola de Ouro.Ankara Messi.")
+   println("O Messi já ganhou $messiGoldenBall vezes a Bola de Ouro.Ankara Messi.")
+   
+   
+
+}
+    
+
