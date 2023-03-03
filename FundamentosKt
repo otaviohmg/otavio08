@@ -48,4 +48,110 @@ fun main() {
 
 }
     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    // Operadores relacionais
+    // 
+    // são sinais que auxiliam em comparações entre valores 
+    // 
+    // = -> para definir valores
+    // == -> comparação de igualdade
+    // != -> diferença
+    // > -> maior que...
+    // < -> menor que...
+    // 
+    //  Operadores matemáticos
+    //  + -> adição
+    //  - -> subtração
+    //  * -> multiplicação
+    //  / -> divisão
+    //  % -> módulo - o resto de uma divisão
+    //  ++ -> daiciona 1 a um valor
+    //  -- -> subtrai 1 a um valor
+    
+    // Condições
+    // if..else -> se..senão
+    // 
+    // Estrutura do if...else simples 
+    // 
+    // if(condição){
+    // ação a ser executada
+    // }
+    //
+    /* 
+    var classificado = "Real Madrid"
+    
+    if(classificado == "Real Madrid"){
+        println("Real Madrid classificado para a final, Hala Madrid!!")
+    }else{
+        println("Barcelona classificado para a final")
+    }
+    */
+    // if..else composto
+    // 
+    // Estrutura:
+    // if(condição){
+    // ação
+    // }else if(condição){
+    // ação
+    // }else if(condição){
+    // ação
+    // }
+     
+    /*var vidas = 5
+    
+    if(vidas >= 5){
+        println("você está excelente!! Que vida boa!")
+    }else if(vidas == 4){
+        println("você está muito bem!! pode comer miojo :)")
+    }else if(vidas == 3){
+        println("você está ok,mas pode melhorar")
+    }else if(vidas == 2){
+        println("tá tudo bem aí??") 
+    }else if(vidas == 1){
+        println("você está morrendo!! Se cuida cara") 
+    }else{
+        println("você não existe")
+    }
+    */ 
+    
+    //Exercicio 1- Faça um programa que verifique dois números e indique
+    //no console,o maior entre eles
+    
+    //Exercicio 2- Faça um programa que indique nop console,se um número
+    //verificado é positivo ou negativo 
+    //
+    // .Nos exercicios,devem ser utilizadas pelo menos 1 variável
+    // .Os exercicios devem ser feitos com if..else
+    // .Divirtam-se ☻
+     
+    var númeroe = 9
+    var númerow = 4
+    
+    if(númeroe > númerow){
+        println("o número $númeroe é maior que $númerow")
+    }else{
+        println("o número $númerow é maior que $númeroe ")
+    }
 
+    
+
+        
+    
+    
+    /*var números = 0
+    
+    if(números >= 0){
+        println("número positivo")
+    }else if(números <= 0){
+        println("número negativo")
+    }*/
+    
+    
+    
+    
+    
+    
+    
+}
