@@ -336,9 +336,9 @@ fun main() {
     
     //Exibir uma tabuada  até pelo menos o décimo multiplo de um número escolhido (que não seja a do 0,do 1,e do 2),utilizando o laço for
     
-    for(tabuada in 7..100){
-        println("${tabuada}x7 = ${tabuada*7}")
-        }
+   for(i in 1..10){
+    println(i*4)
+}
     
     
     
@@ -354,15 +354,63 @@ fun main() {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
    ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+   fun main() {
+    
+/*for(i in 1..10){
+    println(i*4)
+}
+*/
+
+// repeat -> repita
+//
+// repetir uma determinada sequência de ações,em uma determinada quantidade de vezes
+// 
+// repea(vezes){
+// ação
+// }
+// 
+/*repeat(7){
+    println("Tartaruga ☻")
+}*/
+
+// Exercício = Exiba os números de 20 a 0 (nesta ordem) usando o Laço repeat
+// 
+// 
+ 
+
+/*var i  = 21
+repeat(21){
+    i--
+    println("${i}")
+}*/
+    
+    
+   //ou
+
+
+
+var i = 20
+    repeat(21){
+        println(i)
+        i--
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
