@@ -38,7 +38,124 @@ class Pessoa(){
 _______________________________________________________________________________________________________________________________________________________________________
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+fun main() {
 
+    val pessoa1 = Pessoa() //criando um obj
+    //println(pessoa1.altura) //exibe um atributo de um obj
+    /*println(pessoa1.nome)
+    pessoa1.nome = "José" //alterando o atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.altura = 3.10
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39
+    pessoa1.idade = 27
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}, ${pessoa1.nome}")*/
+    
+    // Exercicio - faça a lista de convidados para a sua formatura do primário usando objetos e reutilizando a classe pessoa()
+    // apresente o nome, a idade, o peso, a altura, a nacionalidade deles para os seguranças do evento 
+    // no minimo 5 convidados
+     
+     
+
+   /* pessoa1.nome = "José"
+    println(pessoa1.nome)
+    pessoa1.altura = 3.10
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39
+    pessoa1.idade = 27
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}")
+    
+
+    pessoa1.nome = "Flavio"
+    println(pessoa1.nome)
+    pessoa1.altura = 1.10
+    pessoa1.nacionalidade = "brasileiro"
+    pessoa1.peso = 40.39
+    pessoa1.idade = 15
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}") 
+    
+
+    pessoa1.nome = "Lu"
+    println(pessoa1.nome)
+    pessoa1.altura = 1.60
+    pessoa1.nacionalidade = "italiana"
+    pessoa1.peso = 53.39
+    pessoa1.idade = 37
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}")     
+    
+
+    pessoa1.nome = "vitor"
+    println(pessoa1.nome)
+    pessoa1.altura = 2.10
+    pessoa1.nacionalidade = "americano"
+    pessoa1.peso = 80.00
+    pessoa1.idade = 20
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}")     
+    
+
+    pessoa1.nome = "João"
+    println(pessoa1.nome)
+    pessoa1.altura = 1.90
+    pessoa1.nacionalidade = "português"
+    pessoa1.peso = 90.39
+    pessoa1.idade = 29
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}")  */
+    
+    //correto
+    //correção
+    
+    
+    /*val convidado1 = Pessoa() 
+    convidado1.nome = "Neymar"
+    convidado1.nacionalidade = "paulista"
+    convidado1.altura = 1.76
+    convidado1.peso= 73.0
+    println("${convidado1.nome}, ${convidado1.altura}, ${convidado1.peso}, ${convidado1.nacionalidade} ${convidado1.idade}")  */
+    
+    val bolo1 = Bolo("Morango", "2m", "chocolate", "amendoim", 120.00, "1000 morangos", true)
+    println(" Meu bolo é de ${bolo1.sabor} e tem ${bolo1.tamanho},o recheio dele é de ${bolo1.recheio, a cobertura dele é de ")
+    println("${bolo1.cobertura}, ele custa R${bolo.preço}, em seu complemento tem ${bolo1.complemento}.Se ele tá pronto? ${bolo1.pronto} ")
+    
+    
+    /*
+    val pessoa2 = Pessoa()
+    println(pessoa2.altura)
+    */
+    
+    
+}
+
+class Pessoa(){
+    //criação de atributos para a classe Pessoa
+    //os valores dados aqui,são padrões
+    var nome = ""
+    var idade = 0
+    var altura = 1.90
+    var peso = 30.0
+    var nacionalidade = "Italiano"
+    
+    
+}
+
+class Bolo(val sabor: String, 
+           val tamanho: String, 
+           val recheio: String, 
+           val cobertura :String, 
+           val preço: Double, 
+           val complemento: String, 
+           val pronto: Boolean
+          ){
+    
+    
+}
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+______________________________________________________________________________________________________________________________________________________________________
 
 
 
